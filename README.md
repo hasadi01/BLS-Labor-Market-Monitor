@@ -53,6 +53,16 @@ Source: BLS Local Area Unemployment Statistics (LAUS)
 
 Source: BLS Current Employment Statistics (CES)
 
+## Dashboard Screenshots
+
+### Kentucky Labor Market Overview
+
+![Kentucky Labor Market Overview](kentucky_labor_market_overview_page1.png)
+
+### Louisville Industry Employment Analysis
+
+![Louisville Industry Employment Analysis](louisville_industry_employment_analysis_page2.png)
+
 ## How to Run
 
 1. Install dependencies:
