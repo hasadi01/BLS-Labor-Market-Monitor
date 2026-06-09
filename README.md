@@ -1,5 +1,7 @@
 # BLS-Labor-Market-Monitor
+
 Pipelines project using BLS labor market data, PostgreSQL, and Power BI dashboards for Kentucky and Louisville workforce analysis.
+
 # Louisville Labor Market Analysis
 
 ## Project Overview
@@ -27,6 +29,33 @@ Power BI Dashboard
 * Pandas
 * SQLAlchemy
 
+## Dependencies
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Required libraries:
+
+* requests
+* pandas
+* sqlalchemy
+* psycopg2-binary
+* openpyxl
+
+## Business Insights
+
+The dashboard provides insights into labor market conditions in Kentucky and employment trends within the Louisville metropolitan area.
+
+Key findings include:
+
+* Unemployment rates peaked during 2020 and gradually declined in subsequent years before showing a slight increase again in 2024.
+* Kentucky labor market indicators remained relatively stable from 2021–2024.
+* Industry employment levels vary significantly across Louisville industries.
+* Education and Health Services and Manufacturing represent major employment sectors within the Louisville metropolitan area.
+
 ## Repository Contents
 
 * `bls_etl_pipeline.py` – Extract, transform, validate, and load labor market data
@@ -47,7 +76,7 @@ Source: BLS Local Area Unemployment Statistics (LAUS)
 
 ### Page 2: Louisville Industry Employment Analysis
 
-* Employment Trends by Industry
+* Louisville Employment Trends by Industry
 * Louisville Employment by Industry
 * Industry Filter
 
